@@ -59,7 +59,11 @@ header .navigation li a {
     text-decoration: none;
     font-weight: 500;
     font-size: 19px;
-    margin-left: 100px; 
+    margin-left: 40px; 
+}
+
+header .navigation li a:hover {
+    color: #e51e2a;
 }
 
 .container {
@@ -94,8 +98,10 @@ header .navigation li a {
 }
 
 .container .text a {
+    
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 25px;
     padding: 10px 25px;
     background: #e51e2a;
     color: #fff;
@@ -129,7 +135,7 @@ header .navigation li a {
     height: 50px;
     border-radius: 50%;
     background: #222;
-    margin-left: 45px;
+    margin-left: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,7 +147,35 @@ header .navigation li a {
     transform: translateY(-10px);
 }
 
+.icons li a img {
+    transform: scale(0.8);
+    filter: invert(1);
+}
 
+.boxImg {
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+}
+
+.boxImg img {
+    width: 150px;
+}
+
+.boxImg .img1 {
+    transform: rotate(-15deg);
+}
+
+.boxImg .img2 {
+    transform: rotate(5deg);
+}
+.boxImg .img3 {
+    transform: rotate(15deg);
+}
+
+.boxImg .img4 {
+    transform: rotate(-5deg);
+}
 
 
 
